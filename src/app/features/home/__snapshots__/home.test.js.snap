@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home Component 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 makeStyles-div-2 MuiPaper-rounded"
+/>
+`;
