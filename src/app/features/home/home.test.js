@@ -79,15 +79,13 @@ describe('<Home />', () => {
                 "discounts": 45
             },
         ]));
-        act(() => {
-            const component = mount(
-                <MemoryRouter>
-                    <ContextStateProvider>
-                        <Home />
-                    </ContextStateProvider>
-                </MemoryRouter>
-            );
-        })
+        const component = mount(
+            <MemoryRouter>
+                <ContextStateProvider>
+                    <Home />
+                </ContextStateProvider>
+            </MemoryRouter>
+        );
         expect(component.find(Typography)).toHaveLength(1);
     });
 
