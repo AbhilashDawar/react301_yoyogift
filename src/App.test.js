@@ -1,7 +1,9 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { shallow } from 'enzyme';
 import App from './App';
+import { ThemeProvider } from '@material-ui/styles';
 
-test('renders learn react link', () => {
-  const { } = render(<App />);
+test('<App />', () => {
+  const component = shallow(<App />);
+  expect(component.find(ThemeProvider)).toHaveLength(1);
 });

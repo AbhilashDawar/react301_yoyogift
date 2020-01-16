@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`categoryView Component 1`] = `
+exports[`<CategoryView /> renders correctly 1`] = `
 Array [
   <div
     className="MuiGrid-root makeStyles-filterContainer-6 MuiGrid-container"

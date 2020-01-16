@@ -37,7 +37,9 @@ function CategoryView(props) {
             }
             setGifts(data);
             dispatch({ type: 'HIDE' });
-        })
+        }).catch(() => {
+            console.log("ERROR while fetching gifts")
+        });
     }, [categoryId, props.location.search])
 
     function renderCouponCard({ columnIndex, key, rowIndex, style, isScrolling }) {

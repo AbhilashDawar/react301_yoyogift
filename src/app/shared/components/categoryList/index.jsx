@@ -12,6 +12,8 @@ function CategoryList(props) {
     useEffect(() => {
         http.GET(`/category`).then((response) => {
             setCategories(response.data);
+        }).catch(() => {
+            console.log("ERROR while fetching categories")
         });
     }, [])
 

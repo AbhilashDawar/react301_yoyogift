@@ -47,10 +47,16 @@ function LoginForm({ history }) {
                     http.GET(`/users?email=${payload.email}`).then((res) => {
                         sessionStorage.setItem('USER', JSON.stringify(res.data[0]));
                         history.push('/');
-                    })
-                })
+                    }).catch(() => {
+                        console.log("ERROR while fetching users details")
+                    });
+                }).catch(() => {
+                    console.log("ERROR while posting users")
+                });
             }
-        })
+        }).catch(() => {
+            console.log("ERROR while fetching users details")
+        });
     }
 
     return (

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`adminDashboard 1`] = `
+exports[`<AdminDashboard /> renders correctly 1`] = `
 Array [
   <div
     className="MuiPaper-root MuiPaper-elevation1 makeStyles-adminContainer-1 MuiPaper-rounded"
@@ -12,17 +12,17 @@ Array [
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-132 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-216 MuiPaper-rounded"
         >
           <div
-            className="MuiGrid-root makeStyles-container-133 MuiGrid-container"
+            className="MuiGrid-root makeStyles-container-217 MuiGrid-container"
           >
             <div
-              className="MuiGrid-root makeStyles-iconSpan-138 MuiGrid-item MuiGrid-grid-xs-4"
+              className="MuiGrid-root makeStyles-iconSpan-222 MuiGrid-item MuiGrid-grid-xs-4"
             >
               <svg
                 aria-hidden="true"
-                className="MuiSvgIcon-root makeStyles-icon-139"
+                className="MuiSvgIcon-root makeStyles-icon-223"
                 focusable="false"
                 role="presentation"
                 viewBox="0 0 24 24"
@@ -33,16 +33,16 @@ Array [
               </svg>
             </div>
             <div
-              className="MuiGrid-root makeStyles-content-135 MuiGrid-item MuiGrid-grid-xs-6"
+              className="MuiGrid-root makeStyles-content-219 MuiGrid-item MuiGrid-grid-xs-6"
             >
               <div
-                className="MuiGrid-root makeStyles-fullContainer-134 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center"
+                className="MuiGrid-root makeStyles-fullContainer-218 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center"
               >
                 <div
                   className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
                 >
                   <h6
-                    className="MuiTypography-root makeStyles-text-137 MuiTypography-h6"
+                    className="MuiTypography-root makeStyles-text-221 MuiTypography-h6"
                   >
                     Gift Coupons Available
                   </h6>
@@ -51,7 +51,7 @@ Array [
                   className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
                 >
                   <h5
-                    className="MuiTypography-root makeStyles-number-136 MuiTypography-h5"
+                    className="MuiTypography-root makeStyles-number-220 MuiTypography-h5"
                   >
                     0
                   </h5>
@@ -65,17 +65,17 @@ Array [
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-179 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-224 MuiPaper-rounded"
         >
           <div
-            className="MuiGrid-root makeStyles-container-180 MuiGrid-container"
+            className="MuiGrid-root makeStyles-container-225 MuiGrid-container"
           >
             <div
-              className="MuiGrid-root makeStyles-iconSpan-185 MuiGrid-item MuiGrid-grid-xs-4"
+              className="MuiGrid-root makeStyles-iconSpan-230 MuiGrid-item MuiGrid-grid-xs-4"
             >
               <svg
                 aria-hidden="true"
-                className="MuiSvgIcon-root makeStyles-icon-186"
+                className="MuiSvgIcon-root makeStyles-icon-231"
                 focusable="false"
                 role="presentation"
                 viewBox="0 0 24 24"
@@ -86,16 +86,16 @@ Array [
               </svg>
             </div>
             <div
-              className="MuiGrid-root makeStyles-content-182 MuiGrid-item MuiGrid-grid-xs-6"
+              className="MuiGrid-root makeStyles-content-227 MuiGrid-item MuiGrid-grid-xs-6"
             >
               <div
-                className="MuiGrid-root makeStyles-fullContainer-181 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center"
+                className="MuiGrid-root makeStyles-fullContainer-226 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center"
               >
                 <div
                   className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
                 >
                   <h6
-                    className="MuiTypography-root makeStyles-text-184 MuiTypography-h6"
+                    className="MuiTypography-root makeStyles-text-229 MuiTypography-h6"
                   >
                     Gift Coupons Sent
                   </h6>
@@ -104,7 +104,7 @@ Array [
                   className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
                 >
                   <h5
-                    className="MuiTypography-root makeStyles-number-183 MuiTypography-h5"
+                    className="MuiTypography-root makeStyles-number-228 MuiTypography-h5"
                   >
                     0
                   </h5>
@@ -118,17 +118,17 @@ Array [
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-187 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-232 MuiPaper-rounded"
         >
           <div
-            className="MuiGrid-root makeStyles-container-188 MuiGrid-container"
+            className="MuiGrid-root makeStyles-container-233 MuiGrid-container"
           >
             <div
-              className="MuiGrid-root makeStyles-iconSpan-193 MuiGrid-item MuiGrid-grid-xs-4"
+              className="MuiGrid-root makeStyles-iconSpan-238 MuiGrid-item MuiGrid-grid-xs-4"
             >
               <svg
                 aria-hidden="true"
-                className="MuiSvgIcon-root makeStyles-icon-194"
+                className="MuiSvgIcon-root makeStyles-icon-239"
                 focusable="false"
                 role="presentation"
                 viewBox="0 0 24 24"
@@ -139,16 +139,16 @@ Array [
               </svg>
             </div>
             <div
-              className="MuiGrid-root makeStyles-content-190 MuiGrid-item MuiGrid-grid-xs-6"
+              className="MuiGrid-root makeStyles-content-235 MuiGrid-item MuiGrid-grid-xs-6"
             >
               <div
-                className="MuiGrid-root makeStyles-fullContainer-189 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center"
+                className="MuiGrid-root makeStyles-fullContainer-234 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center"
               >
                 <div
                   className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
                 >
                   <h6
-                    className="MuiTypography-root makeStyles-text-192 MuiTypography-h6"
+                    className="MuiTypography-root makeStyles-text-237 MuiTypography-h6"
                   >
                     Registered Users
                   </h6>
@@ -157,7 +157,7 @@ Array [
                   className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
                 >
                   <h5
-                    className="MuiTypography-root makeStyles-number-191 MuiTypography-h5"
+                    className="MuiTypography-root makeStyles-number-236 MuiTypography-h5"
                   >
                     0
                   </h5>
@@ -171,17 +171,17 @@ Array [
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-195 MuiPaper-rounded"
+          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-240 MuiPaper-rounded"
         >
           <div
-            className="MuiGrid-root makeStyles-container-196 MuiGrid-container"
+            className="MuiGrid-root makeStyles-container-241 MuiGrid-container"
           >
             <div
-              className="MuiGrid-root makeStyles-iconSpan-201 MuiGrid-item MuiGrid-grid-xs-4"
+              className="MuiGrid-root makeStyles-iconSpan-246 MuiGrid-item MuiGrid-grid-xs-4"
             >
               <svg
                 aria-hidden="true"
-                className="MuiSvgIcon-root makeStyles-icon-202"
+                className="MuiSvgIcon-root makeStyles-icon-247"
                 focusable="false"
                 role="presentation"
                 viewBox="0 0 24 24"
@@ -196,16 +196,16 @@ Array [
               </svg>
             </div>
             <div
-              className="MuiGrid-root makeStyles-content-198 MuiGrid-item MuiGrid-grid-xs-6"
+              className="MuiGrid-root makeStyles-content-243 MuiGrid-item MuiGrid-grid-xs-6"
             >
               <div
-                className="MuiGrid-root makeStyles-fullContainer-197 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center"
+                className="MuiGrid-root makeStyles-fullContainer-242 MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center"
               >
                 <div
                   className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
                 >
                   <h6
-                    className="MuiTypography-root makeStyles-text-200 MuiTypography-h6"
+                    className="MuiTypography-root makeStyles-text-245 MuiTypography-h6"
                   >
                     Total Reviews Given
                   </h6>
@@ -214,7 +214,7 @@ Array [
                   className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
                 >
                   <h5
-                    className="MuiTypography-root makeStyles-number-199 MuiTypography-h5"
+                    className="MuiTypography-root makeStyles-number-244 MuiTypography-h5"
                   >
                     0
                   </h5>

@@ -8,7 +8,7 @@ import http from '../../shared/utilities/http';
 import CouponCard from '../../shared/components/couponCard';
 import { ContextState } from '../../shared/utilities/context/state';
 
-function HomeComponent() {
+export function HomeComponent() {
     const classes = useStyles();
     const [gifts, setGifts] = useState([]);
     const { dispatch } = useContext(ContextState);
@@ -23,7 +23,9 @@ function HomeComponent() {
             }
             setGifts(data);
             dispatch({ type: 'HIDE' });
-        })
+        }).catch(() => {
+            console.log("ERROR while fetching gifts for Home Page")
+        });
     }, [])
 
     function RenderTopGifts() {

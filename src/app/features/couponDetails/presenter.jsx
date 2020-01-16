@@ -33,7 +33,9 @@ export default function CouponDetails() {
         const id = couponID;
         http.GET(`/comments-review?giftId=${id}`).then((response) => {
             setReviews(response.data);
-        })
+        }).catch(() => {
+            console.log("ERROR while fetching comments-review")
+        });
     }
 
     useEffect(() => {
@@ -41,7 +43,9 @@ export default function CouponDetails() {
         const id = couponID;
         http.GET(`/gifts?id=${id}`).then((response) => {
             setCardDetails(response.data[0]);
-        })
+        }).catch(() => {
+            console.log("ERROR while fetching gifts")
+        });
         refreshReviews();
     }, [couponID])
 

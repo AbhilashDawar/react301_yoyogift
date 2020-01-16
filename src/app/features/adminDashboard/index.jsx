@@ -16,7 +16,7 @@ export default function AdminDashboard() {
         reviews: 0,
         giftsSent: 0,
         users: 0,
-    })
+    });
 
     useEffect(() => {
         http.GET('/db').then((response) => {
@@ -26,7 +26,9 @@ export default function AdminDashboard() {
                 giftsSent: response.data['user-gifts'].length,
                 users: response.data.users.length,
             })
-        })
+        }).catch(()=>{
+            console.log("ERROR while fetching db data")
+        });
     }, [])
 
     return (
